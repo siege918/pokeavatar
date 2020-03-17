@@ -1,7 +1,7 @@
 const express = require('express');
 const crop = require('./crop');
 
-const port = 80;
+const port = process.env.PORT || 3000;
 const server = express();
 
 server.get("/:id/avatar.png", (req, res) => {
