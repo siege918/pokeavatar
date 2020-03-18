@@ -1,10 +1,11 @@
 const fs = require('fs');
 const sharp = require('sharp');
+const staticValues = require('./staticValues');
 
 module.exports = (id) => {
     const readStream = fs.createReadStream('gs.png');
 
-    const reducedId = id % 254;
+    const reducedId = staticValues[id] || (id % 254);
 
     const column = reducedId % 10;
     const row = Math.floor(reducedId / 10);
