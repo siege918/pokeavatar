@@ -11,6 +11,4 @@ module.exports = {
     "5961": 100,
     // qwerty = pidgey
     "7602": 15,
-    // pastiche = haunter
-    "9185": 92
 };
