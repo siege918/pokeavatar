@@ -11,7 +11,6 @@ module.exports = {
     // Masked Hero = Voltorb
     "5961": 100,
     // qwerty = pidgey
-    "7602": 15,
+    "7602": 16,
     "9185": 92,
-
 };
