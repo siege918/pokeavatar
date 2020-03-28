@@ -1,4 +1,5 @@
 module.exports = {
+    "27": 79,
     // Alakazam = Ninetales
     "295": 37,
     // Danny = flaafy
@@ -11,4 +12,6 @@ module.exports = {
     "5961": 100,
     // qwerty = pidgey
     "7602": 15,
+    "9185": 92,
+
 };
